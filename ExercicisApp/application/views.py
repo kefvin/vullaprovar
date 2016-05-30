@@ -26,7 +26,6 @@ def repartir(request):
 
     elif(request.user.perfil.tipus.nom == 'admin'):
         return HttpResponseRedirect(reverse('exercicisapp:index'))
-    #return HttpResponseRedirect(reverse('exercicisapp:selectalumne'))
 
         #########################################################################
         ####################### Views Navegacio Alumnes #########################

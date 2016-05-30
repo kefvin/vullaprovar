@@ -7,7 +7,7 @@ from django.contrib.auth.decorators import user_passes_test
 import datetime
 import sys
 
-# Create your views here.
+
 @user_passes_test(lambda u:u.is_staff, login_url='/login/')
 def xmlcopygenerator(request):
     sysout = sys.stdout

@@ -46,23 +46,19 @@ def vista_logout(request):
     logout(request)
     return HttpResponseRedirect (reverse('exercicisapp:index'))
 
-#@login_required
-# Ha de ser profesor
+@login_required
 def registrar(request):
     if(request.user.perfil.tipus.nom == 'professor'):
         if request.method == 'POST':
             form = RegisterForm(request.POST)
             if form.is_valid():
-                #cleaned_data = form.cleaned_data
                 username = form.cleaned_data['usuari']
-                #email = cleaned_data.get('email')
                 password = form.cleaned_data['contrasenya']
                 first_name = form.cleaned_data['nom']
                 last_name = form.cleaned_data['cognom']
                 usuari = User()
                 usuari.username = username
                 usuari.set_password(password)
-                #usuari.email = email
                 usuari.first_name = first_name
                 usuari.last_name = last_name
                 usuari.save()
