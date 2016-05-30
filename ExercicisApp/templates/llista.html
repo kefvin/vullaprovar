@@ -1,0 +1,82 @@
+{% extends 'base.html'%}
+{% load staticfiles %}
+
+  {% block title %}
+    Llista de matèries, usuaris i exercicis
+  {% endblock %}
+  {% block extrahead %}
+      <link rel="stylesheet" href="{% static 'css/materies.css' %}" type="text/css" />
+  {% endblock %}
+
+  {% block nav %}
+  <ol class="breadcrumb">
+      <li><a href="{% url 'exercicisapp:index'%}">vullaprovar/</a></li>
+      <li><a href="{% url 'exercicisapp:selectalumne'%}">selectalumne/</a></li>
+  </ol>
+  {% endblock %}
+
+  {% block base %}
+  <a id="Enrere" class="btn btn-primary" href="{% url 'exercicisapp:selectalumne' %}"><span class="glyphicon glyphicon-arrow-left"></span>Enrere</a>
+
+  <div class="container">
+    <h1>Llista de matèries, usuaris i exercicis</h1>
+
+      <div id="user" class="panel panel-info">
+        <div class="panel-heading">
+          Usuaris
+        </div>
+        <table class="table">
+
+              {% for usuari in usuaris %}
+              <tr>
+                  <td>
+                      <h3>{{usuari.last_name}} {{usuari.first_name}}</h3>
+                  </td>
+                  <td>
+                      <a class="btn btn-danger glyphicon glyphicon-trash" href="{% url 'exercicisapp:eliminarUser' usuari.id %}"></a>
+                  </td>
+              </tr>
+              {%endfor%}
+            </table>
+        </div>
+
+        <div id="mater" class="panel panel-warning">
+          <div class="panel-heading">
+            Materies
+          </div>
+          <table class="table">
+          <div class="panel-body">
+              {% for materie in materies %}
+              <tr>
+                  <td>
+                      <h3>{{materie.nom}}</h3>
+                  </td>
+                  <td>
+                      <a class="btn btn-danger glyphicon glyphicon-trash" href="{% url 'exercicisapp:eliminarMateria' materie.id %}"></a>
+                  </td>
+              </tr>
+              {% endfor %}
+              </div>
+            </table>
+        </div>
+
+        <div id="exer" class="panel panel-success">
+          <div class="panel-heading">
+            Exercicis
+          </div>
+            <table class="table">
+            <div class="panel-body">
+              {% for exercici in exercicis %}
+              <tr>
+                  <td>
+                    <h3>{{exercici.tema}}</h3>
+                  </td>
+                  <td>
+                    <a class="btn btn-danger glyphicon glyphicon-trash" href="{% url 'exercicisapp:eliminarExercici' exercici.id %}"></a>
+                  </td>
+              </tr>
+              {% endfor %}
+              </div>
+            </table>
+          </div>
+  {% endblock %}

@@ -1,0 +1,21 @@
+{%extends 'base.html'%}
+{% load staticfiles %}
+{% load crispy_forms_tags %}
+
+{% block extrahead %}         <!-- CSS PARA QUE NO SALGAN TODOS LOS ENUNCIADOS CONPLETOS! -->
+    <link rel="stylesheet" href="{% static 'css/forms.css' %}" type="text/css" />
+{% endblock %}
+
+{%block base%}
+<a class="btn btn-primary" href="{% url 'exercicisapp:repartir'%}"><span class="glyphicon glyphicon-arrow-left"></span>Enrere</a>
+<h1>{{actual}}</h1>
+<hr/>
+<div class="container">
+    {% crispy form %}
+</div>
+<!--<form action="" method="post">
+    {% csrf_token %}
+    {{ form }}
+    <input type="submit" value="Submit" />
+</form>-->
+{%endblock%}

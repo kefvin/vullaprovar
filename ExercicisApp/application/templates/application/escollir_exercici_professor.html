@@ -1,0 +1,46 @@
+{% extends 'base.html'%}
+{% load staticfiles %}
+
+  {% block title %}
+    Exercicis de {{materia.nom}}
+  {% endblock %}
+  {% block extrahead %}         <!-- CSS PARA QUE NO SALGAN TODOS LOS ENUNCIADOS COMPLETOS! -->
+      <link rel="stylesheet" href="{% static 'css/materies.css' %}" type="text/css" />
+  {% endblock %}
+
+  {% block nav %}
+  <ol class="breadcrumb">
+      <li><a href="{% url 'exercicisapp:index'%}">vullaprovar/</a></li>
+        <li><a href="{% url 'exercicisapp:selectalumne'%}">selectalumne/</a></li>
+          <li><a href="{% url 'exercicisapp:materies_profesors' idalumne%}">materies_profesors/</a></li>
+  </ol>
+  {% endblock %}
+
+  {% block base %}
+    <a id="Enrere" class="btn btn-primary" href="{% url 'exercicisapp:materies_profesors' idalumne %}"><span class="glyphicon glyphicon-arrow-left"></span>Enrere</a>
+    <a id="create" class="btn btn-primary" href="{% url 'exercicisapp:addexercici' %}"><span class="glyphicon glyphicon-pencil"></span> Crear exercici</a>
+    <div class="container">
+        <div class="panel panel-info">
+            <div class="panel-heading">
+                <h3 id="titolexercici" >Exercicis de {{materia.nom}}</h3>
+            </div>
+
+            <div class="panel-body">
+
+                  {% if exercicis %}
+                  {% for exercici in exercicis %}
+                  <a href="{% url 'exercicisapp:corregir_exercici' idalumne materia.id exercici.id %}">
+                    <div class="choose col-sm-12 col-md-6 col-lg-3">
+                        <h3>{{exercici.tema}}</h3>
+                        <p>{{exercici.enunciat}}</p>
+                    </div>
+                    </a>
+                  {% endfor %}
+                  {% else %}
+                  <p>No hi ha cap exercici</p>
+                  {% endif %}
+
+            </div>
+        </div>
+    </div>
+  {% endblock %}

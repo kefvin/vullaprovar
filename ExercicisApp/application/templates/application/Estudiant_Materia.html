@@ -1,0 +1,43 @@
+{% extends 'base.html'%}
+{% load staticfiles %}
+
+    {% block title %}
+        Matèries
+    {% endblock %}
+    {% block extrahead %}
+        <link rel="stylesheet" href="{% static 'css/materies.css' %}" type="text/css" />
+    {% endblock %}
+
+    {% block nav %}
+    <ol class="breadcrumb">
+      <li><a href="{% url 'exercicisapp:index'%}">vullaprovar</a></li>
+    </ol>
+    {% endblock %}
+
+    {% block base %}
+    <h1>Matèries</h1>
+
+    <div class="container">
+
+      <!-- Poner style en las letras de cada div! -->
+      {% if materies %}
+      {% for materie in materies %}
+        <a href="{% url 'exercicisapp:asignatura' materie.id %}">
+        <div class="class_{{materie.id}} choose col-sm-12 col-md-6 col-lg-3">
+              <h3>{{materie.nom}}</h3>
+              <div class="row">
+                  {% if materie.nom = "Anglès" %}
+                      <img id="angles" src="{{materie.icon.url}}"></img>
+                  {% else %}
+                      <img src="{{materie.icon.url}}"></img>
+                  {% endif %}
+              </div>
+        </div>
+        </a>
+      {% endfor %}
+      {% else %}
+      <p>No hi ha cap materia</p>
+      {% endif %}
+
+    </div>
+    {% endblock %}

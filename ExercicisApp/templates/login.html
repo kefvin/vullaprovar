@@ -1,0 +1,18 @@
+{% extends 'base.html'%}
+{% load staticfiles %}
+{% load crispy_forms_tags %}
+{% block title %}
+    {{pagetitle}}
+{% endblock %}
+{% block extrahead %}         
+    <link rel="stylesheet" href="{% static 'css/login.css' %}" type="text/css" />
+{% endblock %}
+
+{%block base%}
+<h1>{{titulo}}</h1>
+<hr/>
+<div class="container">
+    {% crispy form %}
+</div>
+
+{%endblock%}

@@ -1,0 +1,138 @@
+@keyframes back {
+  0%{background:#525252;}
+  36%{background:#0066cc;}
+  48%{background:#0066cc;}
+  60%{background:#90caf9;}
+  88%{background:#0066cc;}
+  100%{background:#52525;}
+}
+
+#all{
+  margin:0px !important;
+  height: 100vh;
+  animation-name: back;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+}
+
+#titol{
+  color: black;
+  z-index: 10;
+  position:absolute;
+  left:15%;
+  top: 41vh;
+  font-size: 5em;
+}
+
+#mates{
+  font-size: 10em;
+  color: blue;
+  height: 100%;
+}
+
+#ciencies{
+  min-height: 100%;
+}
+
+#llengues{
+  font-size: 10em;
+  min-height: 100%;
+}
+
+#u {
+  position: absolute;
+	z-index: 0;
+  top: -5%;
+  left:85%;
+  transform: rotate(-30deg);
+}
+
+#ix{
+  position: absolute;
+	z-index: 0;
+  top:25%;
+  transform: rotate(90deg);
+}
+
+#quatre{
+  position: absolute;
+	z-index: 0;
+  top:70%;
+  transform: rotate(30deg);
+}
+
+
+#monn{
+  position: absolute;
+  height: 30%;
+  width: 35%
+  top: -5%;
+  left:65%;
+  transform: rotate(200deg);
+}
+
+#atomm{
+  position: absolute;
+  height: 30%;
+  width: 35%;
+  top:70%;
+}
+
+#e{
+  position: absolute;
+  color: purple;
+	z-index: 0;
+  top:-3%;
+  right:10%;
+  transform: rotate(30deg);
+}
+
+#g{
+  position: absolute;
+  color: purple;
+	z-index: 0;
+  top:35%;
+  transform: rotate(30deg);
+}
+
+#a{
+  position: absolute;
+  color: purple;
+	z-index: 0;
+  top:70%;
+  left:10%;
+  transform: rotate(30deg);
+}
+
+/*
+	animation: u linear 20s infinite;
+ @keyframes u {
+    0%{background:#525252;}
+    36%{background:#0066cc;}
+    48%{background:#0066cc;}
+    60%{background:#90caf9;}
+    88%{background:#0066cc;}
+    100%{background:#52525;}
+
+    0%{background-image: url("/../../media/imgs/3.jpg") ;}
+    33%{background-image: url("/../../media/imgs/4.JPG");}
+    66%{background-image: url("/../../media/imgs/5.jpg");}
+    100%{background-image: url("/../../media/imgs/3.jpg");}
+}/*
+
+/*
+.carta {
+	position: relative;
+	top: 0px;
+	width: 200px;
+	height: 250px;
+	margin: 10px;
+	margin-right: -150px;
+	float: left;
+	transition: all 1s;
+}
+
+.carta:hover{
+	transform: translate(0px, -25px);
+	transition: all 0.5s;
+}*/

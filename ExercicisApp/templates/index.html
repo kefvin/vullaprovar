@@ -1,0 +1,37 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Nom de la app</title>
+        <link rel="stylesheet" href="{% static 'css/incex.css' %}" type="text/css" />
+        <link rel="stylesheet" href="{% static 'bootstrap/css/bootstrap.min.css' %}" type="text/css" />
+        <script type="text/javascript" src="{% static 'js_jquery/jquery-2.2.4.min.js' %}"></script>
+    </head>
+    <body>
+      <div id="all">
+        <a href="{% url 'exercicisapp:repartir'%}">
+          <div id="titol">La teva applicació de repàs</div>
+
+          <div id="mates" class="col-xs-4	col-sm-4	col-md-4	col-lg-4">
+              <span id="u">1</span>
+              <div id="ix">x</div>
+              <div id="quatre">4</div>
+          </div>
+
+          <div id="ciencies" class="col-xs-4	col-sm-4	col-md-4	col-lg-4">
+              <div id="mon"><img id="monn" src="/media/None/socials.png"/></div>
+              <div id="atom"><img id="atomm" src="/media/None/naturals.png"/></div>
+          </div>
+
+          <div id="llengues" class="col-xs-4	col-sm-4	col-md-4	col-lg-4">
+              <div id="e">e</div>
+              <div id="g">g</div>
+              <div id="a">a</div>
+          </div>
+
+          <script type="text/javascript" src="{% static 'js_jquery/index.js' %}"></script>
+        </a>
+      <div>
+    </body>
+</html>

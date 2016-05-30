@@ -1,0 +1,17 @@
+#titolexercici{
+  margin-top: -3%;
+}
+
+h1{
+  margin-left: 12%;
+  margin-top: -3%;
+}
+
+a{
+  text-decoration:none;
+  color: black;
+}
+
+label, input, select, textarea{
+  margin-top: 3%;
+}

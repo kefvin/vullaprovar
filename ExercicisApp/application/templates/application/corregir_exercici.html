@@ -1,0 +1,40 @@
+{% extends 'base.html'%}
+{% load staticfiles %}
+{% load crispy_forms_tags %}
+
+{% block title %}
+    Exercici
+{% endblock %}
+{% block extrahead %}
+    <link rel="stylesheet" href="{% static 'css/exercici.css' %}" type="text/css" />
+    <script type="text/javascript" src="{% static 'js_jquery/jquery-2.2.4.min.js' %}"></script>
+    <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.3/jquery.min.js"></script>-->
+    <script type="text/javascript" src="{% static 'js_jquery/corregir_exercici.js' %}"></script>
+    <!-- CREAR UN TEMPORIZADOR DE CUANTO TARDA EN RESPONDER EL EJERCICIO -->
+{% endblock %}
+
+{% block nav %}
+<ol class="breadcrumb">
+<li><a href="{% url 'exercicisapp:index'%}">vullaprovar</a></li>
+<li><a href="{% url 'exercicisapp:selectalumne'%}">selectalumne</a></li>
+<li><a href="{% url 'exercicisapp:materies_profesors' idalumne%}">materies_profesors</a></li>
+<li><a href="{% url 'exercicisapp:escollir_exercici' idalumne idmateria%}">exercicis_profesors</a></li>
+</ol>
+{% endblock %}
+
+{% block base %}
+<div class="container">
+  <a id="Enrere" class="btn btn-primary" href="{% url 'exercicisapp:escollir_exercici' idalumne idmateria %}"><span class="glyphicon glyphicon-arrow-left"></span>Enrere</a>
+    <h1>Exercici</h1>
+    <h3>{{exercici.tema}}</h3>
+    <hr/>
+
+    <div class="container">
+        <p>{{exercici.enunciat}}</p>
+    </div>
+</div>
+<hr/>
+<div class="container">
+    {% crispy form %}
+</div>
+{% endblock %}
