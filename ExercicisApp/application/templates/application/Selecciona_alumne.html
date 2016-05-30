@@ -16,6 +16,7 @@
   {% endblock %}
 
   {% block base %}
+    <a id="CBBDD" class="btn btn-danger" href="{% url 'exercicisapp:xmlcopygenerator' %}"><span class="glyphicon glyphicon-save"></span> Crear copia de seguretat</a>
     <a id="createUser" class="btn btn-primary" href="{% url 'exercicisapp:createuser' %}"><span class="glyphicon glyphicon-user"></span> Crear usuari</a>
     <a id="llistes" class="btn btn-info" href="{% url 'exercicisapp:llista' %}"> Llistes</a>
     <h1>Alumnes</h1>
