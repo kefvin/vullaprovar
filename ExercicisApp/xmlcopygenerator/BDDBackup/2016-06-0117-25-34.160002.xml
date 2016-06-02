@@ -1,0 +1,435 @@
+<?xml version="1.0" encoding="utf-8"?>
+<django-objects version="1.0">
+  <object model="contenttypes.contenttype" pk="1">
+    <field name="app_label" type="CharField">admin</field>
+    <field name="model" type="CharField">logentry</field>
+  </object>
+  <object model="contenttypes.contenttype" pk="2">
+    <field name="app_label" type="CharField">auth</field>
+    <field name="model" type="CharField">permission</field>
+  </object>
+  <object model="contenttypes.contenttype" pk="3">
+    <field name="app_label" type="CharField">auth</field>
+    <field name="model" type="CharField">group</field>
+  </object>
+  <object model="contenttypes.contenttype" pk="4">
+    <field name="app_label" type="CharField">auth</field>
+    <field name="model" type="CharField">user</field>
+  </object>
+  <object model="contenttypes.contenttype" pk="5">
+    <field name="app_label" type="CharField">contenttypes</field>
+    <field name="model" type="CharField">contenttype</field>
+  </object>
+  <object model="contenttypes.contenttype" pk="6">
+    <field name="app_label" type="CharField">sessions</field>
+    <field name="model" type="CharField">session</field>
+  </object>
+  <object model="contenttypes.contenttype" pk="7">
+    <field name="app_label" type="CharField">application</field>
+    <field name="model" type="CharField">perfil</field>
+  </object>
+  <object model="contenttypes.contenttype" pk="8">
+    <field name="app_label" type="CharField">application</field>
+    <field name="model" type="CharField">tipus</field>
+  </object>
+  <object model="contenttypes.contenttype" pk="9">
+    <field name="app_label" type="CharField">application</field>
+    <field name="model" type="CharField">curs</field>
+  </object>
+  <object model="contenttypes.contenttype" pk="10">
+    <field name="app_label" type="CharField">application</field>
+    <field name="model" type="CharField">materia</field>
+  </object>
+  <object model="contenttypes.contenttype" pk="11">
+    <field name="app_label" type="CharField">application</field>
+    <field name="model" type="CharField">exercici</field>
+  </object>
+  <object model="contenttypes.contenttype" pk="13">
+    <field name="app_label" type="CharField">application</field>
+    <field name="model" type="CharField">resposta_user</field>
+  </object>
+  <object model="sessions.session" pk="64vzifkic1vo074ga63563v56qxn565c">
+    <field name="session_data" type="TextField">ZDMzY2I3YTUyNWFkOGY2YTE1ODkwMjI1NzFhZTA2NDFjYmYwMjZiZDp7Il9hdXRoX3VzZXJfaGFzaCI6IjM3NmRiZTE5MDcwNGUxODRjZTQ2OTZiZWQzZDEzZGY2ZTlmNDQ5NzEiLCJfYXV0aF91c2VyX2JhY2tlbmQiOiJkamFuZ28uY29udHJpYi5hdXRoLmJhY2tlbmRzLk1vZGVsQmFja2VuZCIsIl9hdXRoX3VzZXJfaWQiOiIxNyJ9</field>
+    <field name="expire_date" type="DateTimeField">2016-06-15T17:17:10+00:00</field>
+  </object>
+  <object model="sessions.session" pk="hgxzovpth2mbtmd9apkxjcrrqca3x3dl">
+    <field name="session_data" type="TextField">ZDMzY2I3YTUyNWFkOGY2YTE1ODkwMjI1NzFhZTA2NDFjYmYwMjZiZDp7Il9hdXRoX3VzZXJfaGFzaCI6IjM3NmRiZTE5MDcwNGUxODRjZTQ2OTZiZWQzZDEzZGY2ZTlmNDQ5NzEiLCJfYXV0aF91c2VyX2JhY2tlbmQiOiJkamFuZ28uY29udHJpYi5hdXRoLmJhY2tlbmRzLk1vZGVsQmFja2VuZCIsIl9hdXRoX3VzZXJfaWQiOiIxNyJ9</field>
+    <field name="expire_date" type="DateTimeField">2016-06-11T22:48:57+00:00</field>
+  </object>
+  <object model="sessions.session" pk="jmhdcjkv2z8g79ntgy3ximoo0j8jw5ab">
+    <field name="session_data" type="TextField">ZDMzY2I3YTUyNWFkOGY2YTE1ODkwMjI1NzFhZTA2NDFjYmYwMjZiZDp7Il9hdXRoX3VzZXJfaGFzaCI6IjM3NmRiZTE5MDcwNGUxODRjZTQ2OTZiZWQzZDEzZGY2ZTlmNDQ5NzEiLCJfYXV0aF91c2VyX2JhY2tlbmQiOiJkamFuZ28uY29udHJpYi5hdXRoLmJhY2tlbmRzLk1vZGVsQmFja2VuZCIsIl9hdXRoX3VzZXJfaWQiOiIxNyJ9</field>
+    <field name="expire_date" type="DateTimeField">2016-06-13T17:38:16+00:00</field>
+  </object>
+  <object model="sessions.session" pk="mol7uw4jsmbhtgk858cxuwnoqjzmniuk">
+    <field name="session_data" type="TextField">Yzc3MzNiY2FlZDkwZDkwNDRjODg3MTMxNjExZDI3NjEwNzJkYTVjODp7Il9hdXRoX3VzZXJfaGFzaCI6IjAxZDhiMzFkNjljNWMzYzM1YzdjY2FiYjlkNDY5OGUzMmFjZjA0MjIiLCJfYXV0aF91c2VyX2JhY2tlbmQiOiJkamFuZ28uY29udHJpYi5hdXRoLmJhY2tlbmRzLk1vZGVsQmFja2VuZCIsIl9hdXRoX3VzZXJfaWQiOiIxNSJ9</field>
+    <field name="expire_date" type="DateTimeField">2016-06-06T13:56:03+00:00</field>
+  </object>
+  <object model="sessions.session" pk="pz17spy263tf2kqwpuwr9225j6jxwlxa">
+    <field name="session_data" type="TextField">Yzc3MzNiY2FlZDkwZDkwNDRjODg3MTMxNjExZDI3NjEwNzJkYTVjODp7Il9hdXRoX3VzZXJfaGFzaCI6IjAxZDhiMzFkNjljNWMzYzM1YzdjY2FiYjlkNDY5OGUzMmFjZjA0MjIiLCJfYXV0aF91c2VyX2JhY2tlbmQiOiJkamFuZ28uY29udHJpYi5hdXRoLmJhY2tlbmRzLk1vZGVsQmFja2VuZCIsIl9hdXRoX3VzZXJfaWQiOiIxNSJ9</field>
+    <field name="expire_date" type="DateTimeField">2016-06-06T13:52:04+00:00</field>
+  </object>
+  <object model="sessions.session" pk="xs1wgs1l47g3csq7c93b8esuos2kzmtr">
+    <field name="session_data" type="TextField">ZDMzY2I3YTUyNWFkOGY2YTE1ODkwMjI1NzFhZTA2NDFjYmYwMjZiZDp7Il9hdXRoX3VzZXJfaGFzaCI6IjM3NmRiZTE5MDcwNGUxODRjZTQ2OTZiZWQzZDEzZGY2ZTlmNDQ5NzEiLCJfYXV0aF91c2VyX2JhY2tlbmQiOiJkamFuZ28uY29udHJpYi5hdXRoLmJhY2tlbmRzLk1vZGVsQmFja2VuZCIsIl9hdXRoX3VzZXJfaWQiOiIxNyJ9</field>
+    <field name="expire_date" type="DateTimeField">2016-06-13T13:10:23+00:00</field>
+  </object>
+  <object model="application.tipus" pk="1">
+    <field name="nom" type="CharField">alumne</field>
+  </object>
+  <object model="application.tipus" pk="2">
+    <field name="nom" type="CharField">professor</field>
+  </object>
+  <object model="application.curs" pk="1">
+    <field name="nivell" type="IntegerField">1</field>
+    <field name="materia" rel="ManyToManyRel" to="application.materia"></field>
+  </object>
+  <object model="application.curs" pk="2">
+    <field name="nivell" type="IntegerField">2</field>
+    <field name="materia" rel="ManyToManyRel" to="application.materia"></field>
+  </object>
+  <object model="application.curs" pk="3">
+    <field name="nivell" type="IntegerField">3</field>
+    <field name="materia" rel="ManyToManyRel" to="application.materia"></field>
+  </object>
+  <object model="application.curs" pk="4">
+    <field name="nivell" type="IntegerField">4</field>
+    <field name="materia" rel="ManyToManyRel" to="application.materia"></field>
+  </object>
+  <object model="application.curs" pk="5">
+    <field name="nivell" type="IntegerField">5</field>
+    <field name="materia" rel="ManyToManyRel" to="application.materia"><object pk="1"></object><object pk="2"></object><object pk="3"></object><object pk="4"></object><object pk="5"></object><object pk="6"></object></field>
+  </object>
+  <object model="application.curs" pk="6">
+    <field name="nivell" type="IntegerField">6</field>
+    <field name="materia" rel="ManyToManyRel" to="application.materia"></field>
+  </object>
+  <object model="application.materia" pk="1">
+    <field name="nom" type="CharField">Matemàtiques</field>
+    <field name="icon" type="FileField">None/mates_zpEVmM3.ico</field>
+  </object>
+  <object model="application.materia" pk="2">
+    <field name="nom" type="CharField">Ciències Naturals</field>
+    <field name="icon" type="FileField">None/naturals_pBxvMsv.png</field>
+  </object>
+  <object model="application.materia" pk="3">
+    <field name="nom" type="CharField">Ciències Socials</field>
+    <field name="icon" type="FileField">None/socials_L5YqF9p.png</field>
+  </object>
+  <object model="application.materia" pk="4">
+    <field name="nom" type="CharField">Anglès</field>
+    <field name="icon" type="FileField">None/angles_Zb2SHrO.png</field>
+  </object>
+  <object model="application.materia" pk="5">
+    <field name="nom" type="CharField">Castellà</field>
+    <field name="icon" type="FileField">None/castella_cXqhyQN.png</field>
+  </object>
+  <object model="application.materia" pk="6">
+    <field name="nom" type="CharField">Català</field>
+    <field name="icon" type="FileField">None/catala_wzbidTs.png</field>
+  </object>
+  <object model="application.exercici" pk="1">
+    <field name="tema" type="CharField">Multiplicacions</field>
+    <field name="nom" type="CharField">Les sodes de la senyora</field>
+    <field name="enunciat" type="TextField">Una senyora va comprar 8 paquets amb sis sodas cadascun, per portar a una festa, Quantes sodas portarà a la festa?</field>
+    <field name="materia" rel="ManyToOneRel" to="application.materia">1</field>
+  </object>
+  <object model="application.resposta_user" pk="1">
+    <field name="resposta" type="TextField">aaaaaaaa</field>
+    <field name="comentari_professor" type="TextField">Molt bé! L'has resolt a la perfecció.</field>
+    <field name="exercici" rel="OneToOneRel" to="application.exercici">1</field>
+    <field name="usuari" rel="OneToOneRel" to="application.perfil">5</field>
+  </object>
+  <object model="auth.permission" pk="1">
+    <field name="name" type="CharField">Can add log entry</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">1</field>
+    <field name="codename" type="CharField">add_logentry</field>
+  </object>
+  <object model="auth.permission" pk="2">
+    <field name="name" type="CharField">Can change log entry</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">1</field>
+    <field name="codename" type="CharField">change_logentry</field>
+  </object>
+  <object model="auth.permission" pk="3">
+    <field name="name" type="CharField">Can delete log entry</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">1</field>
+    <field name="codename" type="CharField">delete_logentry</field>
+  </object>
+  <object model="auth.permission" pk="4">
+    <field name="name" type="CharField">Can add permission</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">2</field>
+    <field name="codename" type="CharField">add_permission</field>
+  </object>
+  <object model="auth.permission" pk="5">
+    <field name="name" type="CharField">Can change permission</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">2</field>
+    <field name="codename" type="CharField">change_permission</field>
+  </object>
+  <object model="auth.permission" pk="6">
+    <field name="name" type="CharField">Can delete permission</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">2</field>
+    <field name="codename" type="CharField">delete_permission</field>
+  </object>
+  <object model="auth.permission" pk="7">
+    <field name="name" type="CharField">Can add group</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">3</field>
+    <field name="codename" type="CharField">add_group</field>
+  </object>
+  <object model="auth.permission" pk="8">
+    <field name="name" type="CharField">Can change group</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">3</field>
+    <field name="codename" type="CharField">change_group</field>
+  </object>
+  <object model="auth.permission" pk="9">
+    <field name="name" type="CharField">Can delete group</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">3</field>
+    <field name="codename" type="CharField">delete_group</field>
+  </object>
+  <object model="auth.permission" pk="10">
+    <field name="name" type="CharField">Can add user</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">4</field>
+    <field name="codename" type="CharField">add_user</field>
+  </object>
+  <object model="auth.permission" pk="11">
+    <field name="name" type="CharField">Can change user</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">4</field>
+    <field name="codename" type="CharField">change_user</field>
+  </object>
+  <object model="auth.permission" pk="12">
+    <field name="name" type="CharField">Can delete user</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">4</field>
+    <field name="codename" type="CharField">delete_user</field>
+  </object>
+  <object model="auth.permission" pk="13">
+    <field name="name" type="CharField">Can add content type</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">5</field>
+    <field name="codename" type="CharField">add_contenttype</field>
+  </object>
+  <object model="auth.permission" pk="14">
+    <field name="name" type="CharField">Can change content type</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">5</field>
+    <field name="codename" type="CharField">change_contenttype</field>
+  </object>
+  <object model="auth.permission" pk="15">
+    <field name="name" type="CharField">Can delete content type</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">5</field>
+    <field name="codename" type="CharField">delete_contenttype</field>
+  </object>
+  <object model="auth.permission" pk="16">
+    <field name="name" type="CharField">Can add session</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">6</field>
+    <field name="codename" type="CharField">add_session</field>
+  </object>
+  <object model="auth.permission" pk="17">
+    <field name="name" type="CharField">Can change session</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">6</field>
+    <field name="codename" type="CharField">change_session</field>
+  </object>
+  <object model="auth.permission" pk="18">
+    <field name="name" type="CharField">Can delete session</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">6</field>
+    <field name="codename" type="CharField">delete_session</field>
+  </object>
+  <object model="auth.permission" pk="19">
+    <field name="name" type="CharField">Can add perfil</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">7</field>
+    <field name="codename" type="CharField">add_perfil</field>
+  </object>
+  <object model="auth.permission" pk="20">
+    <field name="name" type="CharField">Can change perfil</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">7</field>
+    <field name="codename" type="CharField">change_perfil</field>
+  </object>
+  <object model="auth.permission" pk="21">
+    <field name="name" type="CharField">Can delete perfil</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">7</field>
+    <field name="codename" type="CharField">delete_perfil</field>
+  </object>
+  <object model="auth.permission" pk="22">
+    <field name="name" type="CharField">Can add tipus</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">8</field>
+    <field name="codename" type="CharField">add_tipus</field>
+  </object>
+  <object model="auth.permission" pk="23">
+    <field name="name" type="CharField">Can change tipus</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">8</field>
+    <field name="codename" type="CharField">change_tipus</field>
+  </object>
+  <object model="auth.permission" pk="24">
+    <field name="name" type="CharField">Can delete tipus</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">8</field>
+    <field name="codename" type="CharField">delete_tipus</field>
+  </object>
+  <object model="auth.permission" pk="25">
+    <field name="name" type="CharField">Can add curs</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">9</field>
+    <field name="codename" type="CharField">add_curs</field>
+  </object>
+  <object model="auth.permission" pk="26">
+    <field name="name" type="CharField">Can change curs</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">9</field>
+    <field name="codename" type="CharField">change_curs</field>
+  </object>
+  <object model="auth.permission" pk="27">
+    <field name="name" type="CharField">Can delete curs</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">9</field>
+    <field name="codename" type="CharField">delete_curs</field>
+  </object>
+  <object model="auth.permission" pk="28">
+    <field name="name" type="CharField">Can add materia</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">10</field>
+    <field name="codename" type="CharField">add_materia</field>
+  </object>
+  <object model="auth.permission" pk="29">
+    <field name="name" type="CharField">Can change materia</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">10</field>
+    <field name="codename" type="CharField">change_materia</field>
+  </object>
+  <object model="auth.permission" pk="30">
+    <field name="name" type="CharField">Can delete materia</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">10</field>
+    <field name="codename" type="CharField">delete_materia</field>
+  </object>
+  <object model="auth.permission" pk="31">
+    <field name="name" type="CharField">Can add exercici</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">11</field>
+    <field name="codename" type="CharField">add_exercici</field>
+  </object>
+  <object model="auth.permission" pk="32">
+    <field name="name" type="CharField">Can change exercici</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">11</field>
+    <field name="codename" type="CharField">change_exercici</field>
+  </object>
+  <object model="auth.permission" pk="33">
+    <field name="name" type="CharField">Can delete exercici</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">11</field>
+    <field name="codename" type="CharField">delete_exercici</field>
+  </object>
+  <object model="auth.permission" pk="37">
+    <field name="name" type="CharField">Can add resposta_user</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">13</field>
+    <field name="codename" type="CharField">add_resposta_user</field>
+  </object>
+  <object model="auth.permission" pk="38">
+    <field name="name" type="CharField">Can change resposta_user</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">13</field>
+    <field name="codename" type="CharField">change_resposta_user</field>
+  </object>
+  <object model="auth.permission" pk="39">
+    <field name="name" type="CharField">Can delete resposta_user</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">13</field>
+    <field name="codename" type="CharField">delete_resposta_user</field>
+  </object>
+  <object model="auth.user" pk="10">
+    <field name="password" type="CharField">pbkdf2_sha256$24000$7OcTL11SjgMk$9EdzUT/yJ2P5uA7V+TbQ+QqwOh8d9g5IZ2k8Je/y538=</field>
+    <field name="last_login" type="DateTimeField"><None></None></field>
+    <field name="is_superuser" type="BooleanField">False</field>
+    <field name="username" type="CharField">Proba7</field>
+    <field name="first_name" type="CharField">Proba7</field>
+    <field name="last_name" type="CharField">Proba7</field>
+    <field name="email" type="CharField"></field>
+    <field name="is_staff" type="BooleanField">False</field>
+    <field name="is_active" type="BooleanField">True</field>
+    <field name="date_joined" type="DateTimeField">2016-05-20T16:41:06+00:00</field>
+    <field name="groups" rel="ManyToManyRel" to="auth.group"></field>
+    <field name="user_permissions" rel="ManyToManyRel" to="auth.permission"></field>
+  </object>
+  <object model="auth.user" pk="11">
+    <field name="password" type="CharField">pbkdf2_sha256$24000$298wjfVHpaxB$1v1M5pidDAcbEPbAc0r3iOiOvl7uvajUb98gzNYUrpk=</field>
+    <field name="last_login" type="DateTimeField"><None></None></field>
+    <field name="is_superuser" type="BooleanField">False</field>
+    <field name="username" type="CharField">Proba8</field>
+    <field name="first_name" type="CharField">Proba8</field>
+    <field name="last_name" type="CharField">Proba8</field>
+    <field name="email" type="CharField"></field>
+    <field name="is_staff" type="BooleanField">False</field>
+    <field name="is_active" type="BooleanField">True</field>
+    <field name="date_joined" type="DateTimeField">2016-05-20T16:42:00+00:00</field>
+    <field name="groups" rel="ManyToManyRel" to="auth.group"></field>
+    <field name="user_permissions" rel="ManyToManyRel" to="auth.permission"></field>
+  </object>
+  <object model="auth.user" pk="14">
+    <field name="password" type="CharField">pbkdf2_sha256$24000$C9gwTYZfoonX$fwv6Bh3CGGeKY9Pgop9Ce3FekV56/JXuPh5EAYiW+/o=</field>
+    <field name="last_login" type="DateTimeField"><None></None></field>
+    <field name="is_superuser" type="BooleanField">False</field>
+    <field name="username" type="CharField">Proba10</field>
+    <field name="first_name" type="CharField">Proba10</field>
+    <field name="last_name" type="CharField">Proba10</field>
+    <field name="email" type="CharField"></field>
+    <field name="is_staff" type="BooleanField">False</field>
+    <field name="is_active" type="BooleanField">True</field>
+    <field name="date_joined" type="DateTimeField">2016-05-20T16:56:51+00:00</field>
+    <field name="groups" rel="ManyToManyRel" to="auth.group"></field>
+    <field name="user_permissions" rel="ManyToManyRel" to="auth.permission"></field>
+  </object>
+  <object model="auth.user" pk="15">
+    <field name="password" type="CharField">pbkdf2_sha256$24000$XqnfRCj6ninX$YCj17hoLIFdIItSdYEBsY0T6Vh80xgDG94XW/BDyHSE=</field>
+    <field name="last_login" type="DateTimeField">2016-06-01T11:01:18+00:00</field>
+    <field name="is_superuser" type="BooleanField">False</field>
+    <field name="username" type="CharField">Proba11</field>
+    <field name="first_name" type="CharField">Proba11</field>
+    <field name="last_name" type="CharField">Proba11</field>
+    <field name="email" type="CharField"></field>
+    <field name="is_staff" type="BooleanField">False</field>
+    <field name="is_active" type="BooleanField">True</field>
+    <field name="date_joined" type="DateTimeField">2016-05-20T16:58:34+00:00</field>
+    <field name="groups" rel="ManyToManyRel" to="auth.group"></field>
+    <field name="user_permissions" rel="ManyToManyRel" to="auth.permission"></field>
+  </object>
+  <object model="auth.user" pk="16">
+    <field name="password" type="CharField">pbkdf2_sha256$24000$ANQFNfCs767s$zKo87hbAbm6c0bdIWJ/ezgERpQL3KI34rSRmgY8PHuU=</field>
+    <field name="last_login" type="DateTimeField">2016-05-26T09:10:18+00:00</field>
+    <field name="is_superuser" type="BooleanField">False</field>
+    <field name="username" type="CharField">Dani</field>
+    <field name="first_name" type="CharField">Dani</field>
+    <field name="last_name" type="CharField">DaniDani</field>
+    <field name="email" type="CharField"></field>
+    <field name="is_staff" type="BooleanField">False</field>
+    <field name="is_active" type="BooleanField">True</field>
+    <field name="date_joined" type="DateTimeField">2016-05-25T15:21:58+00:00</field>
+    <field name="groups" rel="ManyToManyRel" to="auth.group"></field>
+    <field name="user_permissions" rel="ManyToManyRel" to="auth.permission"></field>
+  </object>
+  <object model="auth.user" pk="17">
+    <field name="password" type="CharField">pbkdf2_sha256$24000$aa2JVRFt5VJ4$RzwH3PUbgLP4ijjvIEBzoUl88vAqkX3bJt6CGiIWSxM=</field>
+    <field name="last_login" type="DateTimeField">2016-06-01T17:17:10+00:00</field>
+    <field name="is_superuser" type="BooleanField">False</field>
+    <field name="username" type="CharField">SrHerrera</field>
+    <field name="first_name" type="CharField">SrHerrera</field>
+    <field name="last_name" type="CharField">SrHerrera</field>
+    <field name="email" type="CharField"></field>
+    <field name="is_staff" type="BooleanField">True</field>
+    <field name="is_active" type="BooleanField">True</field>
+    <field name="date_joined" type="DateTimeField">2016-05-25T17:16:50+00:00</field>
+    <field name="groups" rel="ManyToManyRel" to="auth.group"></field>
+    <field name="user_permissions" rel="ManyToManyRel" to="auth.permission"></field>
+  </object>
+  <object model="application.perfil" pk="1">
+    <field name="usuari" rel="OneToOneRel" to="auth.user">10</field>
+    <field name="tipus" rel="ManyToOneRel" to="application.tipus"><None></None></field>
+    <field name="curs" rel="ManyToOneRel" to="application.curs"><None></None></field>
+  </object>
+  <object model="application.perfil" pk="2">
+    <field name="usuari" rel="OneToOneRel" to="auth.user">11</field>
+    <field name="tipus" rel="ManyToOneRel" to="application.tipus">1</field>
+    <field name="curs" rel="ManyToOneRel" to="application.curs">5</field>
+  </object>
+  <object model="application.perfil" pk="4">
+    <field name="usuari" rel="OneToOneRel" to="auth.user">14</field>
+    <field name="tipus" rel="ManyToOneRel" to="application.tipus"><None></None></field>
+    <field name="curs" rel="ManyToOneRel" to="application.curs"><None></None></field>
+  </object>
+  <object model="application.perfil" pk="5">
+    <field name="usuari" rel="OneToOneRel" to="auth.user">15</field>
+    <field name="tipus" rel="ManyToOneRel" to="application.tipus">1</field>
+    <field name="curs" rel="ManyToOneRel" to="application.curs">5</field>
+  </object>
+  <object model="application.perfil" pk="6">
+    <field name="usuari" rel="OneToOneRel" to="auth.user">16</field>
+    <field name="tipus" rel="ManyToOneRel" to="application.tipus">2</field>
+    <field name="curs" rel="ManyToOneRel" to="application.curs">6</field>
+  </object>
+  <object model="application.perfil" pk="7">
+    <field name="usuari" rel="OneToOneRel" to="auth.user">17</field>
+    <field name="tipus" rel="ManyToOneRel" to="application.tipus">2</field>
+    <field name="curs" rel="ManyToOneRel" to="application.curs">5</field>
+  </object>
+</django-objects>

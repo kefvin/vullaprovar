@@ -51,7 +51,8 @@ def exercici(request, idmateria, idexercici):
     if(request.user.perfil.tipus.nom == 'alumne' or request.user.perfil.tipus.nom == 'admin'):
 
         try:
-            resposta = Resposta_user.objects.get(exercici=idexercici, usuari = request.user.perfil)
+            exercicii = Exercici.objects.get(id = idexercici)
+            resposta = Resposta_user.objects.get(exercici=exercicii.id, usuari = request.user.perfil)
         except Resposta_user.DoesNotExist:
             resposta = None
 
@@ -59,7 +60,7 @@ def exercici(request, idmateria, idexercici):
         addrespostaForm=modelform_factory(Resposta_user,exclude=(),)
 
         if not esModificacio:
-           resposta=Resposta_user( usuari = request.user.perfil, exercici = idexercici)
+           resposta=Resposta_user( usuari = request.user.perfil, exercici = exercicii)
         if request.method=='POST':
             form=addrespostaForm(request.POST, request.FILES, instance=resposta)
             if form.is_valid():
